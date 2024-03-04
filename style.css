@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: crimson;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+ }
+/* ortak verilen özellikler */
+button{
+    transition: .3s ease-in-out!important;
+}
+/* header */
+header ul li a{
+    transition: .3s ease-in-out!important;
+}
+header ul li a:hover{
+  color: crimson!important;
+}
+textarea{
+    resize: none!important;
+}
+form button{
+    transition: .5s ease-in-out!important;
+}
+form button:hover{
+    background-color: crimson!important;
+    color: white!important;
+}
+footer .social a:hover{
+    transform: scalex(1.2);
+}

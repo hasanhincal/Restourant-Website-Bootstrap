@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant-Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap ICON-CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-white">
+        <div class="container pt-1">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.png" alt="logo" width="190px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bolder">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#order">Order</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex me-5" role="search">
+              <input
+                class="form-control me-2 rounded-5 shadow-none"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-danger rounded-5" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- home -->
+    <section class="home">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-md-7 col-lg-6 mt-lg-5 mb-sm-5">
+            <h1 class="fw-bolder">
+              Claim Best Offer On Fast <br />
+              <span class="text-danger">Food</span> &
+              <span class="text-danger">Restaurant</span>
+            </h1>
+            <h6 class="lh-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Sed, quibusdam minus.Ea accusamus rem numquam.
+            </h6>
+            <div>
+              <a href="#" class="btn btn-lg bg-danger text-light mt-3 mb-3"
+                >Our Menu</a
+              >
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-5">
+            <img src="images/image 46.png" alt="img46" class="img-fluid mx-4" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services -->
+    <section class="serve">
+      <div class="container p-5">
+        <div class="title text-center lh-lg mb-5">
+          <h2 class="text-danger fw-bold">WHAT WE SERVE</h2>
+          <h3 class="fw-bold">
+            Your Favourite Food <br />
+            Delivery Partner
+          </h3>
+        </div>
+        <div
+          class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 mt-5"
+        >
+          <div class="col">
+            <div class="card border-0">
+              <img
+                src="images/img1.png"
+                alt="menu-img1"
+                class="card-img-top w-75"
+              />
+              <div class="card-body text-center text-bold">
+                <h3>Easy To Order</h3>
+                <h6>You only need a few steps in ordering food.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img
+                src="images/img2.png"
+                alt="menu-img2"
+                class="card-img-top w-75"
+              />
+              <div class="card-body text-center text-bold">
+                <h3>Fastest Delivery</h3>
+                <h6>Delivery that is always ontime even faster.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img
+                src="images/img3.png"
+                alt="menu-img3"
+                class="card-img-top w-75"
+              />
+              <div class="card-body text-center text-bold">
+                <h3>Best Quality</h3>
+                <h6>Not only fast for us quality is also number one.</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu -->
+    <section class="menu p-5" id="menu">
+      <div class="container mt-5">
+        <div class="text-center mb-5">
+          <h2 class="text-danger fw-bolder">Menu</h2>
+          <h3 class="fw-bolder">
+            Delicious Dishes Is Here
+            <i class="bi bi-arrow-down text-danger mx-2 fw-bolder"></i>
+          </h3>
+        </div>
+        <div class="row row-cols-sm-1 row-cols-md-4 row-cols-lg-4">
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/Mangalorean_Chicken.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <div class="fw-bold">
+                  $20<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/Garlic_Fried.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <div class="fw-bold">
+                  $20<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/Pineapple_Fried_Rice.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+                <div class="fw-bold">
+                  $30<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/fasr food.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <div class="fw-bold">
+                  $40<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-sm-1 row-cols-md-4 row-cols-lg-4">
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/crispy_fried.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <div class="fw-bold">
+                  $20<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/Grilled_pork_ribs.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <div class="fw-bold">
+                  $20<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/Grilled_beef_steak.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+                <div class="fw-bold">
+                  $30<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/Lyulya_kebab.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <div class="fw-bold">
+                  $40<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mt-5 mb-5"
+          style="border: 1.25px solid rgb(237, 103, 130)"
+        ></div>
+        <div class="title text-center text-danger mt-5">
+          <h2 class="fw-bolder">Our Menu</h2>
+        </div>
+        <div class="row row-cols-sm-1 row-cols-md-4 row-cols-lg-4 my-5">
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/sushi__japanese.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <div class="fw-bold">
+                  $20<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/rice.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <div class="fw-bold">
+                  $20<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/Pineapple_Fried_Rice.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+                <div class="fw-bold">
+                  $30<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card">
+              <img
+                src="images/fasr food.png"
+                alt="menu-img3"
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-bold">
+                <h3 class="text-center text-danger">M Chicken</h3>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <div class="fw-bold">
+                  $40<i
+                    class="bi bi-credit-card text-danger float-end fs-4"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- order -->
+    <section class="order p-5" id="order">
+      <div class="container">
+        <div class="title text-center mb-5">
+          <h2 class="fw-bolder">
+            Order Your <span class="text-danger fw-bolder">Food</span>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-5 col-lg-5 mb-5">
+            <div class="card p-3">
+              <img
+                src="images/img1.png"
+                alt="img1"
+                class="card-img img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col col-12 col-md-7 col-lg-7 ms-auto gx-5">
+            <form class="mb-3">
+              <label for="name" class="form-label">Enter Name</label>
+              <input
+                type="text"
+                class="form-control mb-3"
+                id="name"
+                placeholder="name..."
+                required
+              />
+              <label for="Phone" class="form-label"
+                >Enter Phone</label
+              >
+              <input
+                type="tel"
+                class="form-control mb-3"
+                id="Phone"
+                placeholder="number..."
+                required
+              />
+              <label for="email" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+                required
+              />
+              <label for="exampleFormControlTextarea1" class="form-label my-3"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="5"
+              ></textarea>
+              <button type="submit" class="btn text-danger bg-light btn-outline-danger my-3">
+                Order Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- reviews -->
+    <section class="reviews" id="reviews">
+      <div class="container p-5">
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
+          <div class="col mb-5">
+            <div class="card border-danger">
+            <img src="images/review-img.png" alt="review" class="card-img img-fluid">
+          </div>
+          </div>
+          <div class="col">
+            <div class="content">
+              <h2 class="text-danger text-bold">WHAT THEY SAY</h2>
+              <h3 class="fw-bolder">What Our Customers <br>
+                Say About Us</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, commodi maiores qui quasi tenetur doloremque!</p>
+            <div class="card border-0">
+              <div class="card-img my-1">
+                <img src="images/pic-1.png" alt="pic-1" class="img-fluid rounded-4 w-25 mx-3">
+                <span class="d-inline-block ms-sm-auto fw-550 fs-3">John Cooper</span>
+              </div>
+              <div class="card-body">
+                <div class="rating text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+                <div class="card border-0">
+                  <div class="card-img">
+                    <img src="images/pic-2.png" alt="pic-2" class="img-fluid rounded-4 w-25  mx-3 ">
+                    <span class="d-inline-block ms-sm-auto fw-550 fs-3">Berna Laleli</span>
+                  </div>
+                  <div class="card-body ">
+                    <div class="rating text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section class="contact p-5" id="contact">
+      <div class="container">
+        <div class="title text-center mb-5">
+          <h2 class="fw-bolder fs-2">
+            Contact <span class="text-danger fw-bolder">Us</span>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-5 col-lg-5">
+            <div class="card py-4 px-3 text-light bg-danger">
+              <h3>Let's Get In Touch</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nobis, modi alias suscipit molestiae amet!</p>
+              <div class="">
+                <h6><i class="bi bi-telephone-fill pe-2 lh-lg"></i>444 444 444</h6>
+                <h6><i class="bi bi-envelope pe-2 lh-lg"></i>info@gmail.com</h6>
+                <h6><i class="bi bi-geo-alt-fill pe-2 lh-lg"></i>Bolu</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-md-7 col-lg-7 my-5 my-lg-0 ms-auto g-5">
+            <form class="mb-3">
+              <input
+                type="text"
+                class="form-control mb-3"
+                id="name"
+                placeholder="name..."
+                required
+              />
+              <input
+                type="tel"
+                class="form-control mb-3"
+                id="Phone"
+                placeholder="number..."
+                required
+              />
+              <input
+                type="email"
+                class="form-control mb-3"
+                id="email"
+                placeholder="e-mail..."
+                required
+              />
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="5"
+                placeholder="enter address..."
+              ></textarea>
+              <button type="submit" class="btn text-danger bg-light btn-outline-danger my-3">
+                Order Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container p-5">
+       <div class="f-content text-center">
+        <img src="images/logo.png" class="img-fluid w-auto" alt="logo">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, laudantium!</p>
+        <div class="social d-flex column-gap-3 justify-content-center">
+          <a href=""><i class="bi bi-twitter-x text-black fs-5"></i></a>
+          <a href=""><i class="bi bi-facebook fs-5"></i></a>
+          <a href=""><i class="bi bi-youtube text-danger fs-5"></i></a>
+          <a href=""><i class="bi bi-linkedin fs-5"></i></a>
+          <a href=""><i class="bi bi-instagram text-warning fs-5"></i></a>
+        </div>  
+       </div>
+      </div>
+      <div class="copy bg-danger text-light text-center p-3">
+        &copy 2024 by<a href="htpps://github.com/hasanhincal" class="text-decoration-none text-light p-1" target="_blank">Hasan HINCAL</a>tüm hakları saklıdır.
+      </div>
+    </footer>
+
+    <!--Bootstrap JS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
